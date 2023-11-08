@@ -7,5 +7,6 @@ public class LoadWebdriver {
 	public static void main(String[] args) {
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://www.amazon.com");
+		driver.get("https://www.flipcart.com");
 	}
 }
